@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width: 768px) {
+            body {
+                font-size: 18px; /* Increase font size for larger screens */
+            }
+        }
+        @media (max-width: 767px) {
+            body {
+                font-size: 14px; /* Decrease font size for smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                font-size: 12px; /* Further decrease font size for mobile phones */
+            }
+        }
+        @media screen and (max-width:768px){header h1{font-size:28px}
+
+        }
+        nav li {display:block; margin:5px 0;
+
+        }
+        @media screen and (max-width: 600px) {
+            /* For screen width up to 600px */
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                font-size: 14px; /* Decrease font size for smaller screens */
+            }
+        }
+
+        @media screen and (min-width: 601px) {
+            /* For screen width larger than 600px */
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                font-size: 16px; /* Increase font size for larger screens */
+            }
+        }
+        body {
+            background-color: linen;
+            font-size: 16px;
+            margin-left: 50px;
+            margin-right: 100px;
+        }
+
+        form {
+            text-align: center;
+            font: black;
+            border: 2px solid #000;
+            padding: 10px 10px 10px 10px;
+            width: 80%;
+            border-radius: 30px;
+        }
+
+            form input, form textarea, form p {
+                background-color: linen;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 20px;
+                align-content: center;
+            }
+        h2, p {
+            text-align: center;
+        }
+        .contact{font:bold 20px Arial,verdana}
+    </style>
+</head>
+<body>
+    <h2>CONTACT US</h2>
+    <p class="contact">
+        <img src="https://drive.google.com/uc?export=download&id=1w9-dp-CI1Ui0g0xSM22jhTTI3J8-GZYP" width=20 height=20 alt="watsapicon">
+        <img src="https://drive.google.com/uc?export=download&id=1G5Q2Dwc3Th_X36U4EdmXaAh53IV13UEI" width=20 height=20 alt="phoneicon">PHONE: +256 701 144 499
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+    </p>
+    <p class="contact"><img src="https://drive.google.com/uc?export=download&id=1m4MHRfYyaK_QEJhIbyOc7g-Xeq-bLrOY" width=20 height=20 alt="emailicon">EMAIL: support@computerword.com</p>
+    <div>
+        <h2>CUSTOMER DETAILS</h2>
+        <form method="get" action="https://github.com/AbdulSserwanga/Course-work">
+            <p>Please enter your current details here</p>
+            First name: <input type="text" name="fname" placeholder="type your given name here"><br>
+            Last name: <input type="text" name="lname" placeholder="type your surname here"><br>
+            Gender:    <input type="radio" name="gender" value="m"> Male
+            <input type="radio" name="gender" value="f"> Female &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            Email addresss: <input type="email" name="email" placeholder="e.g email@gmail.com">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            &nbsp;Reaction:&nbsp; <textarea name="Message">Type your message here</textarea><br>
+            <input type="submit" name="Message" value="send your message">
+            <input type="reset" name="reset" value="Clear Form">
+        </form>
+    </div>
+</body>
+</html>
